@@ -1,4 +1,4 @@
-public class TarefaDao {
+public class Tarefa {
 	private int id;
 	private String nomeTarefa;
 	private int tarefaStatus;
