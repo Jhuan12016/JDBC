@@ -1,0 +1,6 @@
+
+public abstract class BaseDao {
+	public Connection getConnection() {
+		return NewConections.getInstance().getConnection();
+	}
+}
