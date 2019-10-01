@@ -1,0 +1,25 @@
+public class Prioridades {
+	private int id;
+	private int niPrioridade;
+	private String DescricaoPrioridade;
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getniPrioridade() {
+		return niPrioridade;
+	}
+	public void setniPrioridade(int niPrioridade) {
+		this.niPrioridade = niPrioridade;
+	}
+	public String getDescricaoPrioridade() {
+		return DescricaoPrioridade;
+	}
+	public void setDescricaoPrioridade(String descricaoPrioridade) {
+		DescricaoPrioridade = descricaoPrioridade;
+	}
+}
