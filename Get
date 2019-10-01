@@ -1,0 +1,40 @@
+public class Get  {
+	private int id;
+	private String Nome_tar;
+	private int Nivel_Prioridade;
+	private String Des_Prioridade;
+	private String Responsavel;
+	
+	
+	public void setId(int id) {
+		this.id = id;
+	}
+	public void setNome_tar(String Nome_tar) {
+		Nome_tar = Nome_tar;
+	}
+	public void setNivel_Prioridade(int nivel_Prioridade) {
+		Nivel_Prioridade = nivel_Prioridade;
+	}
+	public void setDes_Prioridade(String Des_Prioridade) {
+		Des_Prioridade = Des_Prioridade;
+	}
+	public void setResponsavel(String responsavel) {
+		Responsavel = responsavel;
+	}
+	public int getId() {
+		return id;
+	}
+	public String getNome_tar() {
+		return Nome_tarefa;
+	}
+	public int getNivel_Prioridade() {
+		return Nivel_Prioridade;
+	}
+	public String getDes_Prioridade() {
+		return Descricao_Prioridade;
+	}
+	public String getResponsavel() {
+		return Responsavel;
+	}
+	
+}
